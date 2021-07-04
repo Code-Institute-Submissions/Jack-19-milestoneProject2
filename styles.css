@@ -1,6 +1,5 @@
 
 body{
-    background-color:green;
     width:100%;
 }
 
@@ -35,7 +34,10 @@ body{
 }
 
 
-
+#map{
+    height: 25%;
+    width:50%;
+}
 
 
 
