@@ -33,12 +33,19 @@ body{
     width:10rem;
 }
 
-
-#map{
-    height: 25%;
-    width:50%;
+.map-title{
+    text-align:center;
+    padding-top:2rem;
+    padding-bottom:2rem;
 }
 
+#googleMap{
+    height:30rem;
+    width:80rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:2rem;
+}
 
 
 
