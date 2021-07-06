@@ -56,26 +56,45 @@
 
 
 <div>
-  <p>which sights function</p>
-  <h3>Select Which Sights You Would Like To See</h3>
-  <select id="sights" multiple="multiple" name="sights[]">
-    <option value="val0">Thames Barrier</option>
-    <option value="val1">Cutty Sark / Greenwhich</option>
-    <option value="val2">Tower Bridge</option>
-    <option value="val3">HMS Belfast</option>
-    <option value="val4">London Bridge</option>
-    <option value="val5">Golden Hind</option>
-    <option value="val6">Shakesperes Globe</option>
-    <option value="val7">Mellinium Footbridge</option>
-    <option value="val8">Waterloo Bridge</option>
-    <option value="val9">London Eye</option>
-    <option value="val10">Big Ben</option>
-    <option value="val11">Westminster Bridge</option>
-  </select>
+  <h3 class="sight-title">Select Which Sights You Would Like To See</h3>
+   <div class="sight-input">
+     <form id="sights" multiple="multiple" name="sights[]">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+           <ul class="sight-list">
+            <li><input type="checkbox" value="val0">Thames Barrier</li>
+            <li><input type="checkbox" value="val1">Cutty Sark / Greenwhich</li>
+            <li><input type="checkbox" value="val2">Tower Bridge</li>
+            <li><input type="checkbox" value="val3">HMS Belfast</li>
+           </ul>
+          </div>
+          <div class="col-sm">
+           <ul class="sight-list">
+            <li><input type="checkbox" value="val4">London Bridge</li>
+            <li><input type="checkbox" value="val5">Golden Hind</li>
+            <li><input type="checkbox" value="val6">Shakesperes Globe</li>
+            <li><input type="checkbox" value="val7">Mellinium Footbridge</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul class="sight-list">
+             <li><input type="checkbox" value="val8">Waterloo Bridge</li>
+             <li><input type="checkbox" value="val9">London Eye</li>
+             <li><input type="checkbox" value="val10">Big Ben</li>
+             <li><input type="checkbox" value="val11">Westminster Bridge</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     </form>
+   </div>
   <br>
-  <button>Find Pier</button>
-  <br>
-  <input type="text" id="sightResult"/>
+   <div class="result-button">
+    <button class="find-pier-button">Find Pier</button>
+    <br>
+    <input type="text" id="sightResult"/>
+   </div>
 </div>
 
 </body>

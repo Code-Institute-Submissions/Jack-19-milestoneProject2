@@ -5,7 +5,7 @@ var mapProp= {
   zoom:13,
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
+};
 
 var label = "ABCDEFGHIJKLMNOP";
 
@@ -16,7 +16,7 @@ var locations = [
 ];
 
 const markers = locations.map((location, i) => {
-    return new myMap.maps.marker({
+    return new google.maps.Marker({
       position: location,
       label: labels[i % labels.length],
     });
@@ -26,3 +26,9 @@ var markerCluster = new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
+
+
+
+
+
+  

@@ -47,7 +47,30 @@ body{
     padding-top:2rem;
 }
 
+.sight-title{
+    text-align:center;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
 
+.sight-list{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+.sight-input{
+    text-align: center;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.result-button{
+    text-align: center;
+}
+
+.find-pier-button{
+    margin-bottom:1rem;
+}
 
 
 
