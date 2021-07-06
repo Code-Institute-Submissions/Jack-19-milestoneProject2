@@ -58,6 +58,10 @@ body{
     text-decoration: none;
 }
 
+.box{
+    margin-right:0.5rem;
+}
+
 .sight-input{
     text-align: center;
     padding-left:2rem;

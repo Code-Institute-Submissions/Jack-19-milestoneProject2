@@ -29,6 +29,6 @@ var markerCluster = new MarkerClusterer(map, markers, {
 
 
 
+  if(document.getElementById('lndBr').checked) {
+    return 
 
-
-  
