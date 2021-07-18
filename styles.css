@@ -1,6 +1,6 @@
 
 body{
-    width:100%;
+    width:100vw;
 }
 
 
@@ -77,16 +77,22 @@ body{
 .sight-list{
     list-style-type:none;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
 }
 
 .box{
     margin-right:0.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
 }
 
 .sight-input{
     text-align: center;
     padding-left:2rem;
     padding-right:2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
 }
 
 .result-button{
@@ -130,7 +136,10 @@ body{
 
 
 
-
+.footer-1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold !important;
+}
 
 .sign-up{
     align-content: center;
