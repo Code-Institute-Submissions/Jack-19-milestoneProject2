@@ -37,6 +37,9 @@ body{
 .intro-text{
     text-align:center;
     padding-top:2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:large;
+    font-weight: bold;
 }
 .intro-text-image-left{
     height:10rem;
@@ -102,6 +105,17 @@ body{
 
 
 .sight-title{
+    text-align: center;
+}
+
+.card-img-top{
+    width:auto;
+    height:14rem;
+}
+.card-title{
+    text-align:center;
+}
+.card-text{
     text-align: center;
 }
 
