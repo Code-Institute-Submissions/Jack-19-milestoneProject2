@@ -12,14 +12,28 @@ body{
     height:30rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .welcome-text{
     z-index: 1;
     padding-top:5rem;
     text-align:center;
     color:white;
+    animation-name:image;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes image{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+
 .intro-text{
     text-align:center;
     padding-top:2rem;
