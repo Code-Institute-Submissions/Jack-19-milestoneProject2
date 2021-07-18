@@ -12,6 +12,8 @@ body{
     height:30rem;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(211, 211, 211);
+    background-blend-mode: multiply;
 }
 .welcome-text{
     z-index: 1;
@@ -22,7 +24,7 @@ body{
     animation-duration:5s;
     animation-fill-mode: forwards;
     font-family: 'Lobster', cursive;
-    font-size:10rem;
+    font-size:8rem;
 }
 
 @keyframes image{
