@@ -1,6 +1,7 @@
-
 body{
-    width:100vw;
+    max-width:100vw;
+    padding:0;
+    margin:0;
 }
 
 
@@ -12,19 +13,14 @@ body{
     height:30rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(211, 211, 211);
-    background-blend-mode: multiply;
 }
 .welcome-text{
     z-index: 1;
     padding-top:5rem;
     text-align:center;
     color:white;
-    animation-name:image;
-    animation-duration:5s;
-    animation-fill-mode: forwards;
     font-family: 'Lobster', cursive;
-    font-size:8rem;
+    font-size:6rem;
 }
 
 @keyframes image{
@@ -105,8 +101,17 @@ body{
 
 
 
-
-
+.contact-title{
+    text-align:center;
+    padding-top:1rem;
+}
+.contact-form{
+    padding-bottom:2rem;
+}
+.help-us{
+    padding-top:5rem;
+    padding-bottom:0;
+}
 .contact-images{
     width:6rem;
     height:6rem;
@@ -145,4 +150,14 @@ body{
     align-content: center;
     margin-left:auto;
     margin-right:auto;
+}
+
+
+
+
+@media screen (max-width:600px){
+    .welcome-text{
+        font-size:10px;
+    }
+
 }
