@@ -154,10 +154,20 @@ body{
 
 
 
-
-@media screen (max-width:600px){
-    .welcome-text{
-        font-size:10px;
+@media only screen and (max-width: 510px) {
+    .welcome-text {
+      font-size:5rem;
     }
+  }
+  @media only screen and (max-width: 618px) {
+    .intro-text-image-left{
+      display:none;
+    }
+    .intro-text-image-right{
+        display:none;
+    }
+    .second-intro-para{
+        display:none;
+    }
+  }
 
-}
