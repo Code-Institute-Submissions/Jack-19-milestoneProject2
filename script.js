@@ -1,4 +1,21 @@
 
+function findpier(){
+
+  const val4 ="please visit pier one";
+
+  const checkboxes = Array.from(document.querySelectorAll('.box:checked'));
+
+   checkboxes.forEach((checkbox, i)=>{
+     const val=checkbox.value;
+     if (val == 'val4'){
+       document.getElementById('sightResult').innerHTML=val4;
+     }
+   })
+}
+
+
+
+
 
 
 function myMap() {

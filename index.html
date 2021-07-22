@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <script src="script.js"></script>
 	<title>
       The River Thames
     </title>
@@ -77,7 +76,7 @@
           </div>
           <div class="col-sm">
            <ul class="sight-list">
-            <li><input type="checkbox" id="ldnBr" class="box" value="val4">London Bridge</li>
+            <li><input type="checkbox" id="val4" class="box" value="val4">London Bridge</li>
             <li><input type="checkbox" id="golH" class="box" value="val5">Golden Hind</li>
             <li><input type="checkbox" id="shG" class="box" value="val6">Shakesperes Globe</li>
             <li><input type="checkbox" id= "melBr" class="box"value="val7">Mellinium Footbridge</li>
@@ -97,9 +96,9 @@
    </div>
   <br>
    <div class="result-button">
-    <button class="find-pier-button">Find Pier</button>
+    <button class="find-pier-button" onclick="findpier()">Find Pier</button>
     <br>
-    <input type="text" id="sightResult"/>
+    <h1 id="sightResult"></h1>
    </div>
 </div>
 <br>
@@ -260,6 +259,7 @@
   </div>
   <!-- Copyright -->
 </footer>
+<script src="script.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_egSGbixbux_Po3cZx-tFyA9x0o6OBow&callback=myMap"></script>
 <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
 </html>
