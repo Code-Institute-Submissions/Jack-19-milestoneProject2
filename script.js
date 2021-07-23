@@ -16,7 +16,6 @@ function findpier(){
   const lonbr ="Please visit pier ten";
   const biB ="Please visit pier elevn";
   const wesBr ="Please visit pier twele";
-  const other ="Please select a sight";
 
   
 
@@ -66,14 +65,17 @@ function myMap() {
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
-var myLatlng = (51.505751,-0.083742)
-var marker = new google.maps.Marker({
-  position: myLatlng,
-  map: mapProp,
-  title: 'Hello World'
-});
+const myMarks = [{"lat":51.505751,"lng":-0.083742,"name":"jack"},
+                 {"lat":51.505455,"lng":-0.075356,"name":"dave"},
+                 {"lat":51.503186,"lng":-0.050903,"name":"rosie"},
+                ];
+for(let i=0; i<myMarks.length; i++){
 
-  
-  
+  const marker=new google.maps.Marker({
+    position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
+    map:map,
+    title:myMarks[i].name
+  });
+};
 
-  
+myMap();
