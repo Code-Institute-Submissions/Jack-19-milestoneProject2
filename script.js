@@ -4,18 +4,18 @@ document.addEventListener("DOMContentLoaded", handler);
 
 function findpier(){
 
-  const thBar ="please visit pier one";
-  const cutSa ="please visit pier two";
-  const towBr ="Please visit pier three";
-  const Belf ="Please visit pier four";
-  const lnBr ="Please visit pier five";
-  const golH ="Please visit pier six";
-  const shG ="Please visit pier seven";
-  const melBr ="Please visit pier eight";
-  const watBr ="Please visit pier nine";
-  const lonbr ="Please visit pier ten";
-  const biB ="Please visit pier elevn";
-  const wesBr ="Please visit pier twele";
+  const thBar ="North greenwhich pier, a boat ride from her will give you a brilliant view of the barrier";
+  const cutSa ="Greenwhich pier, this pier is located right next to the Cutty Sark";
+  const towBr ="Tower pier, this pier is located next to the bridge. Excelent selfie oppurtunity";
+  const Belf ="Tower pier, sail past from the Belfast from here";
+  const lnBr ="Tower pier, sail underneath the bridge form here";
+  const golH ="London bridge pier, located right next to the Golden Hind";
+  const shG ="South bank pier, grab a great view from here";
+  const melBr ="Southbank pier, sail under this amzaing bridge ";
+  const watBr ="Waterloo pier, located next to this bridge";
+  const lonbr ="London eye pier, located in front of the eye";
+  const biB ="Westminster pier, a short walk from Big ben";
+  const wesBr ="Westminster pier, located right next to the bridge";
 
   
 
