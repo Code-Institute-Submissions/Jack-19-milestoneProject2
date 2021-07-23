@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init("user_mOHqw3vwZZ6LGd4MnqcUU");})();
+  </script>
     <script src="script.js"></script>
 	<title>
       Contact Us
@@ -45,7 +50,7 @@
     <div class="row">
       <div class="col">
         <p class="contact-intro">Simply fill out this form to get in contact or request a sight</p>
-        <form class="contact-form">
+        <form class="contact-form" id="contactForm"onsubmit="return sendMail(this);">
           <label for="fname">First name:</label><br>
           <input type="text" id="fname" name="fname" placeholder="Keith"><br>
           <label for="lname">Last name:</label><br>
@@ -243,3 +248,5 @@
       © 2020 Copyright Jack Smith
     </div>
   </footer>
+  <script src="sendemail.js"</script>
+  
