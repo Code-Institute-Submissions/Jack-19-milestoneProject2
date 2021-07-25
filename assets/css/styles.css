@@ -1,3 +1,5 @@
+
+/* page styles */
 body{
     max-width:100vw;
     padding:0;
@@ -12,10 +14,7 @@ html,body
     overflow-x: hidden; 
 }
 
-
-
-
-
+/* index.html styles*/
 .hero-image{
     background-image:url(https://www.wallpapers13.com/wp-content/uploads/2016/01/Aerial-photographs-of-the-London-River-Thames-above-Hd-Wallpaper-1920x1080.jpg);
     height:30rem;
@@ -30,11 +29,6 @@ html,body
     font-family: 'Lobster', cursive;
     font-size:6rem;
 }
-
-
-
-
-
 .intro-text{
     text-align:center;
     padding-top:2rem;
@@ -50,7 +44,6 @@ html,body
     height:10rem;
     width:10rem;
 }
-
 .map-title{
     text-align:center;
     padding-top:2rem;
@@ -63,7 +56,6 @@ html,body
 .offer-text{
     font-family:'Ubuntu', sans-serif!important;
 }
-
 #googleMap{
     height:30rem;
     width:100%;
@@ -71,26 +63,22 @@ html,body
     margin-right:2rem!important;
     padding-top:2rem;
 }
-
 .sight-title{
     text-align:center;
     margin-bottom:2rem;
     margin-top:2rem;
 }
-
 .sight-list{
     list-style-type:none;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight:bold;
 }
-
 .box{
     margin-right:0.5rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight:bold;
 }
-
 .sight-input{
     text-align: center;
     padding-left:2rem;
@@ -98,17 +86,14 @@ html,body
     font-family: 'Ubuntu', sans-serif;
     font-weight:bold;
 }
-
 .result-button{
     text-align: center;
 }
-
 .find-pier-button{
     margin-bottom:1rem;
 }
 
-
-
+/* contact page styles */
 .contact-title{
     text-align:center;
     padding-top:1rem;
@@ -138,18 +123,15 @@ html,body
     height:6rem;
 }
 
-
-
+/* sight info page styles */
 .sight-title{
     text-align: center;
     font-family:'Lobster', cursive;
 }
-
 .sight-title-intro{
     text-align: center;
     font-family:'Ubuntu', sans-serif;
 }
-
 .card-img-top{
     width:auto;
     height:14rem;
@@ -162,20 +144,11 @@ html,body
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
+/* footer styles */
 .footer-1{
     font-family: 'Ubuntu', sans-serif;
     font-weight:bold !important;
 }
-
 .sign-up{
     align-content: center;
     margin-left:auto;
@@ -185,8 +158,7 @@ html,body
     display:none;
 }
 
-
-
+/* media queries*/
 @media only screen and (max-width: 520px) {
     .welcome-text {
       font-size:5rem;

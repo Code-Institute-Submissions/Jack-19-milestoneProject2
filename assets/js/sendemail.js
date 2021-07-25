@@ -1,4 +1,5 @@
 
+//emailjs function
 
 function sendMail(contactForm) {
     emailjs.send("service_sxkwv68","template_lwjzstp", {

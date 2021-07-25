@@ -1,6 +1,8 @@
+
+//runs code only when DOM content finished loading
 document.addEventListener("DOMContentLoaded", handler);
 
-
+//find pier function
 
 function findpier(){
 
@@ -51,11 +53,7 @@ function findpier(){
    });
 }
       
-
-
-
-
-
+//google maps api function, feature with markers and labels
 
 function myMap() {
  
