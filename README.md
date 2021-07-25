@@ -1,7 +1,8 @@
 # milestoneProject2
 Code Institute Milestone Project 2
 
-Here is a link to the live project.
+Here is a link to the live project.   
+https://jack-19.github.io/milestoneProject2/
 
 
 This website has been created as part of a Code Institute course. (Diploma in software development) This project is is my milestone two interactive frontend development project. My project has been designed to attract tourist to visit London and in particular to encourage tourist to visit the river thames.
@@ -159,7 +160,7 @@ To contribute to this project follow these steps:
 - Push to the original branch.
 - Create a pull request. Alternatively see the documentation on GitHub.
 - Deployment
-- To deploy this project in Github pages from the repository https://github.com/Jack-19/milestoneproject-car in Github:
+- To deploy this project in Github pages from the repository https://jack-19.github.io/milestoneProject2/ in Github:
 
 - Login to Github
 - Choose correct repository (Jack-19/milestoneproject-car)
@@ -169,7 +170,7 @@ To contribute to this project follow these steps:
 - Select master branch
 - Once master branch is selected the project is now deployed
 - Scroll back to Github pages to find the website link
-(https://jack-19.github.io/milestoneproject-car/)
+(https://jack-19.github.io/milestoneProject2/)
 
 #### Run project locally
 
