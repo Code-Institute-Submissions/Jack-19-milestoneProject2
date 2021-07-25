@@ -200,3 +200,23 @@ https://github.com/Jack-19
 Jack Smith
 total90-@hotmail.com
 https://github.com/Jack-19
+
+
+### Wireframes   
+
+Desktop View   
+![desktop](assets/images/homePageWireFrame.png)   
+![desktop2](assets/images/SightInfoWireFrame.png)   
+![desktop3](assets/images/ContactUsWireFrame.png)   
+
+Tablet View   
+![tablet](assets/images/contactUsPage.png)   
+![tablet2](assets/images/HomepageWireframe.png)   
+![tablet3](assets/images/sightInfoPage.png)   
+
+Mobile View   
+![mobile](assets/images/contactUsWireframe.png)
+![mobile2](assets/images/homePageWireframe.png)
+![mobile3](assets/images/sightInfoWireframe.png)
+
+
