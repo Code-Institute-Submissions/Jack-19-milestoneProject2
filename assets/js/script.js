@@ -59,23 +59,39 @@ function findpier(){
 
 function myMap() {
  
-  var mapProp= {
-    center:new google.maps.LatLng(51.505751,-0.083742),
+  const london = {lat:51.508742, lng:-0.120850};
+
+  const markers = [
+    {lat:51.497309, lng:0.037261, "name":"Thames Barrier"},
+    {lat:51.503133, lng:-0.003691, "name":"o2 Arena"},
+    {lat:51.482900, lng:-0.009763, "name":"Cutty Sark / Greenwhich"},
+    {lat:51.505831, lng:-0.075166, "name":"Tower Bridge"},
+    {lat:51.506552, lng:-0.081367, "name":"HMS Belfast"},
+    {lat:51.508061, lng:-0.087783, "name":"London Bridge"},
+    {lat:51.506899, lng:-0.090315, "name":"Golden Hind"},
+    {lat:51.508141, lng:-0.097353, "name":"Shakespeares Globe"},
+    {lat:51.509891, lng:-0.098662, "name":"Mellenium Bridge"},
+    {lat:51.508288, lng:-0.116622, "name":"Waterloo Bridge"},
+    {lat:51.503133, lng:-0.119884, "name":"London Eye"},
+    {lat:51.500689, lng:-0.124605, "name":"Big Ben"},
+    {lat:51.500856, lng:-0.121772, "name":"Westminster Bridge"},
+  ];
+
+  var mapProp = {
+    center:london,
     zoom:12,
   };
+
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+  for(i=0;i<markers.length;i++){
+    const marker = new google.maps.Marker({
+      position:{lat: markers[i].lat, lng: markers[i].lng},
+      map: map,
+      title:markers[i].name
+    });
+  };
 }
-const myMarks = [{"lat":51.505751,"lng":-0.083742,"name":"jack"},
-                 {"lat":51.505455,"lng":-0.075356,"name":"dave"},
-                 {"lat":51.503186,"lng":-0.050903,"name":"rosie"},
-                ];
-for(let i=0; i<myMarks.length; i++){
-
-  const marker=new google.maps.Marker({
-    position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
-    map:map,
-    title:myMarks[i].name
-  });
-};
-
+window.onload = (event)=>{
 myMap();
+};
