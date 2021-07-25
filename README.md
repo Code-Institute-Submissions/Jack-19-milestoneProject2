@@ -137,7 +137,7 @@ Screen shot shows feature allowing the user to sign up to an email newsletter.
 
 As a potential new vistor to London I want to be able to find information about how to access the sights advertised.   
 Screen shot shows find pier feature.   
-![findpier](asstes/images/findpierms2.png)
+![findpier](assets/images/findpierms2.png)
 
 
 
