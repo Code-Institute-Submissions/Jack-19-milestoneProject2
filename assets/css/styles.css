@@ -31,14 +31,7 @@ html,body
     font-size:6rem;
 }
 
-@keyframes image{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
+
 
 
 
@@ -63,6 +56,12 @@ html,body
     padding-top:2rem;
     padding-bottom:2rem;
     font-family:'Lobster', cursive;
+}
+.text-center{
+    text-align: center;
+}
+.offer-text{
+    font-family:'Ubuntu', sans-serif!important;
 }
 
 #googleMap{
